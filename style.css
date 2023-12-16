@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -63,4 +62,55 @@ button{
 
 button:hover{
   background-color: rgba(136,112,26,0.8);
+}
+
+
+/* hero section */
+
+.main{
+
+  background-color: #24252A
+}
+
+.main__container {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: #24252A;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 50px;
+}
+
+
+.main__content h1{
+  font-size: 4rem;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+}
+  
+.main__content h2{
+
+  font-size: 2rem;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+}
+
+.main__content p{
+
+  font-size: 1rem;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+  transition: color 0.5s ease;
+}
+
+.main__content p:hover{
+
+color: #88701acc
+
 }
