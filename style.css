@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html{
+
+  scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,7 +15,7 @@
 li, a, button{
   font-family:"Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 100%;
   color: #edf0f1;
   text-decoration: none;
 }
@@ -69,7 +75,7 @@ button:hover{
 
 .main{
 
-  background-color: #24252A
+  background-color: #8294ee
 }
 
 .main__container {
@@ -79,31 +85,31 @@ button:hover{
   align-items: center;
   justify-self: center;
   margin: 0 auto;
-  height: 90vh;
+  height: 90%;
   background-color: #24252A;
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
+  max-width: 3000px;
   padding: 0 50px;
 }
 
 
 .main__content h1{
-  font-size: 4rem;
+  font-size: 400%;
   font-family: 'Bebas Neue', sans-serif;
   color: white;
 }
   
 .main__content h2{
 
-  font-size: 2rem;
+  font-size: 200%;
   font-family: 'Bebas Neue', sans-serif;
   color: white;
 }
 
 .main__content p{
 
-  font-size: 1rem;
+  font-size: 100%;
   font-family: 'Bebas Neue', sans-serif;
   color: white;
   transition: color 0.5s ease;
